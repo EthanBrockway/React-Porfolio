@@ -1,15 +1,26 @@
-import logo from "./logo.svg";
-import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import About from "./About";
+import Contact from "./Contact";
 import Nav from "./Nav";
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <div>
-      <Nav />
+      <Nav
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
       <main>
-        <About />
+        <div>
+          {!contactSelected ? (
+            <>
+              <About />
+            </>
+          ) : (
+            <Contact />
+          )}
+        </div>
       </main>
     </div>
   );
