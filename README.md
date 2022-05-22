@@ -1,5 +1,5 @@
 # React Portfolio
-### [Link to portfolio](https://ethanbrockway.github.io/React-Portfolio/)
+### [Link to portfolio](https://portfolio277.herokuapp.com/)
 
 ## Description 
 
