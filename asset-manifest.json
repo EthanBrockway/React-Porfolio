@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.d2057b82.css",
+    "main.js": "/React-Portfolio/static/js/main.23761fe1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile-pic.jpg": "/React-Portfolio/static/media/profile-pic.2831c1e2967aa3c2690b.jpg",
+    "static/media/BudgetTracker.PNG": "/React-Portfolio/static/media/BudgetTracker.996b196ab90fb5af7797.PNG",
+    "static/media/Shop.PNG": "/React-Portfolio/static/media/Shop.b073a7d7b52bf530342e.PNG",
+    "static/media/PasswordGenerator.PNG": "/React-Portfolio/static/media/PasswordGenerator.483e395335778c269c2c.PNG",
+    "static/media/NoteTaker.PNG": "/React-Portfolio/static/media/NoteTaker.e7c83b124589dd092a9e.PNG",
+    "static/media/TeamProfileGenerator.PNG": "/React-Portfolio/static/media/TeamProfileGenerator.26ae23d86f05ebc9f17d.PNG",
+    "static/media/SocialNetworking.PNG": "/React-Portfolio/static/media/SocialNetworking.360a512acd902e3a80a2.PNG",
+    "static/media/EmployeeLogistics.PNG": "/React-Portfolio/static/media/EmployeeLogistics.78cb2cec0646dedd0c7c.PNG",
+    "static/media/Ecommerce.PNG": "/React-Portfolio/static/media/Ecommerce.48ecaac4165bd8eabe99.PNG",
+    "index.html": "/React-Portfolio/index.html",
+    "main.d2057b82.css.map": "/React-Portfolio/static/css/main.d2057b82.css.map",
+    "main.23761fe1.js.map": "/React-Portfolio/static/js/main.23761fe1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2057b82.css",
+    "static/js/main.23761fe1.js"
+  ]
+}
