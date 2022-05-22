@@ -1,28 +1,33 @@
 import React, { useState } from "react";
-import About from "./About";
-import Contact from "./Contact";
-import Nav from "./Nav";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Nav from "./components/Nav";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
+  const [selectedTab, setSelectedTab] = useState("about");
+
+  function renderTab() {
+    switch (selectedTab) {
+      case "resume":
+        return <Resume />;
+      case "contact":
+        return <Contact />;
+      case "portfolio":
+        return <Portfolio />;
+      default:
+        return <About />;
+    }
+  }
+
   return (
-    <div>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        <div>
-          {!contactSelected ? (
-            <>
-              <About />
-            </>
-          ) : (
-            <Contact />
-          )}
-        </div>
-      </main>
-    </div>
+    <>
+      <Nav setSelectedTab={setSelectedTab} selectedTab={selectedTab} />
+      <div className="main-div">{renderTab()}</div>
+      <Footer />
+    </>
   );
 }
 
