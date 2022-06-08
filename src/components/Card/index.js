@@ -7,9 +7,8 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function ProjectCard({ project }) {
-  console.log(project);
   return (
-    <Card sx={{ maxWidth: 250 }}>
+    <Card sx={{ maxWidth: 250 }} className="card">
       <CardMedia
         component="img"
         alt="project-image"
@@ -22,7 +21,11 @@ export default function ProjectCard({ project }) {
         <Typography gutterBottom variant="h5" component="div">
           {project.name}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          className="card-description"
+        >
           {project.description}
         </Typography>
       </CardContent>

@@ -21,7 +21,7 @@ const projects = [
   },
   {
     name: "Team Profile Generator",
-    description: "Really cool project 2",
+    description: "Backend Inquirer Application",
     img: ProfileGenerator,
     link: "https://github.com/EthanBrockway/team-profile-generator",
   },

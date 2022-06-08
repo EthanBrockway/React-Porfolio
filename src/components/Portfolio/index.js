@@ -10,7 +10,14 @@ export default function Portfolio() {
         <Grid className="grid-container" container direction="row" spacing={2}>
           {" "}
           {projects.map((project) => (
-            <Grid item key={project.name}>
+            <Grid
+              md={3}
+              sm={8}
+              xs={10}
+              item
+              key={project.name}
+              className="grid-project"
+            >
               {" "}
               <ProjectCard project={project} />
             </Grid>
