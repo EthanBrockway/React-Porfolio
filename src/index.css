@@ -29,6 +29,7 @@ h1.title {
   }
   .nav-links {
     font-size: medium;
+    padding: 0.1;
   }
 }
 .container {
